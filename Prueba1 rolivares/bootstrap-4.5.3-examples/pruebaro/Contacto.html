@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Contacto</title>
+		
+		<!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			.bd-placeholder-img {
+			  font-size: 1.125rem;
+			  text-anchor: middle;
+			  -webkit-user-select: none;
+			  -moz-user-select: none;
+			  -ms-user-select: none;
+			  user-select: none;
+			}
+	  
+			@media (min-width: 768px) {
+			  .bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			  }
+			}
+		  </style>
+
+    <!-- Custom styles for this template -->
+	<link href="pricing.css" rel="stylesheet">  
+
+	</head>
+	<body>
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+			<img class="my-0 mr-md-auto font-weight-normal" src="../assets/brand/Logo.svg"  alt="" width="100" height="100" >
+			<nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" href="index.html">Inicio</a>
+                <a class="p-2 text-dark" href="Nosotros.html">Nosostros</a>
+			  <a class="p-2 text-dark" href="#">Servicios</a>
+              <a class="p-2 text-dark" href="Contacto.html">Contacto</a>
+        </div>
+
+        
+    <div class="container">
+        <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Contactenos</h4>
+            <p class="lead">El horario de atencion al cliente es de 9:30 hasta las 19:30 hrs.</p>
+            <form class="needs-validation" novalidate>
+              <div class="mb-3">
+                <label for="username">Nombre:</label>
+                <div class="input-group">
+                  <input type="text" class="form-control" id="username" placeholder=" " required>
+                  <div class="invalid-feedback" style="width: 100%;">
+                    Your username is required.
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName">Rut:</label>
+                  <input type="text" class="form-control" placeholder=" " placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+             </div>    
+              <div class="mb-3">
+                <label for="address">Telefono:</label>
+                <input type="text" class="form-control"  placeholder=" " required>
+                <div class="invalid-feedback">
+                  Please enter your shipping address.
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <label for="address2">E-mail: </label>
+                <input type="text" class="form-control"  placeholder=" ">
+              </div>
+
+              <div class="mb-3">
+                <label for="address2">Numero de boleta o factura: </label>
+                <input type="text" class="form-control"  placeholder=" ">
+              </div>
+      
+              <div class="row">
+                <div class="col-md-5 mb-3">
+                  <label for="country">Motivo</label>
+                  <select class="custom-select d-block w-100" id="country" required>
+                    <option value="">--SELECCIONE MOTIVO---</option>
+                    <option>motivo1</option>
+                    <option>motivo2</option>
+                    <option>motivo3</option>
+                    <option>motivo4</option>
+
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid country.
+                  </div>
+                </div>
+              </div>
+              <label for="country">Comentarios</label>
+              <textarea class="form-control" rows="3"></textarea>
+              <hr class="mb-4">
+              <button class="btn btn-primary btn-lg btn-block" type="submit">Enviar</button>
+
+
+            </form>
+          </div>
+        </div>
+
+
+ 
+		
+	</body>
+</html>
